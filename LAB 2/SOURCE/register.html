@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab-2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+    <title>Registration Page</title>
+    <script>
+        function registration()
+        {
+
+                window.location.href='loginpage.html';
+
+        }
+    </script>
+</head>
+<style>
+
+    body
+    {
+        background-color: #888888;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+    }
+    .wrap
+    {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+</style>
+<body>
+<form class="form-horizontal">
+    <fieldset>
+
+        <!-- Form Name -->
+
+        <legend><center><h1>REGISTER</h1></center></legend>
+
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="fn">Full name</label>
+            <div class="col-md-4">
+                <input id="fn" name="fn" type="text" placeholder="Enter your full name" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="email">Email</label>
+            <div class="col-md-4">
+                <input id="email" name="email" type="email" placeholder="Enter your email id" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="phone">Phone</label>
+            <div class="col-md-4">
+                <input id="phone" name="phone" type="tel" size="10" placeholder="Enter your Phone#" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Multiple Radios (inline) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Training">Gender</label>
+            <div class="col-md-4">
+                <label class="radio-inline" for="Training-0">
+                    <input type="radio" name="Training" id="Training-0" value="male" checked="checked">
+                    Male
+                </label>
+                <label class="radio-inline" for="Training-1">
+                    <input type="radio" name="Training" id="Training-1" value="no">
+                    Female
+                </label>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="username">Username</label>
+            <div class="col-md-4">
+                <input id="username" name="username" type="text" placeholder="Enter your username" class="form-control input-md">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="password">Password</label>
+            <div class="col-md-4">
+                <input id="password" name="password" type="password" placeholder="Enter your password" class="form-control input-md">
+
+            </div>
+        </div>
+
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="submit"></label>
+            <div class="col-md-4">
+                <center>
+                    <input type="button" name="Login" value="SUBMIT" onclick="registration()">
+                </center>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+<body>
+</html>
