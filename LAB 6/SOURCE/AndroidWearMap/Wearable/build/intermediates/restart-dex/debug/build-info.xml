@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="25"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="81495682238600"
+    token="6784660374122547761"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="18785" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="4579" />
+    <task
+        name="verifier"
+        duration="473" />
+
+    <artifact
+        location="C:\Users\akhil\Desktop\AndroidWearMap\Wearable\build\outputs\apk\Wearable-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="81495682238600"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\akhil\Desktop\AndroidWearMap\Wearable\build\outputs\apk\Wearable-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

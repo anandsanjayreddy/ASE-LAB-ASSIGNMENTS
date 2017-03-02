@@ -1,0 +1,7 @@
+#Wed Mar 01 23:39:06 CST 2017
+base.0=C\:\\Users\\akhil\\Desktop\\AndroidWearMap\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_681d46af14ed1aaba7d0a4b18a9a7a7eea99e843
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\akhil\\Desktop\\AndroidWearMap\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c968bbbcb2194efb7bac5ec1cbd3f291da881512\\classes.dex
+base.1=C\:\\Users\\akhil\\Desktop\\AndroidWearMap\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c968bbbcb2194efb7bac5ec1cbd3f291da881512
+file.0=C\:\\Users\\akhil\\Desktop\\AndroidWearMap\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_681d46af14ed1aaba7d0a4b18a9a7a7eea99e843\\classes.dex
